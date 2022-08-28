@@ -7,6 +7,6 @@
 <title>Primeiro-Java-Web</title>
 </head>
 <body>
-<center><h1>Olá Mundo</h1></center>
+<h1>Olá Mundo</h1>
 </body>
 </html>
