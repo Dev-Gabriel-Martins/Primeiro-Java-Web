@@ -18,7 +18,7 @@
 	</nav>
 	
 	<main class="bananaMain">
-		<form action="" method="post" class="bananaForm">
+		<form action="cadastrarProduto" method="get" class="bananaForm">
 			<div>
 				<label><strong>Descrição:</strong></label><input type="text"
 					name="descricao">

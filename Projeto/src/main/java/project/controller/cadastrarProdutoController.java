@@ -8,11 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/cadastarProdutoController")
-public class cadastarProdutoController extends HttpServlet {
+@WebServlet("/cadastrarProdutoController")
+public class cadastrarProdutoController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
-    public cadastarProdutoController() {
+    public cadastrarProdutoController() {
         super();
         
     }
@@ -27,6 +27,7 @@ public class cadastarProdutoController extends HttpServlet {
 		
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
+		System.out.println("Requisição POST");
 	}
 
 }
